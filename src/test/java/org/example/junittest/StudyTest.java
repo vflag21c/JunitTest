@@ -8,6 +8,11 @@ import org.junit.jupiter.api.Test;
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)
 class StudyTest {
 
+    /**
+     * Test 마다 인스턴스가 바뀐다. 전역변수 증가 x  (ex : int value = 1 )
+     * 순서도 보장되지않음.
+     */
+
     @Test
     void create_new_study() {
         System.out.println("study");
