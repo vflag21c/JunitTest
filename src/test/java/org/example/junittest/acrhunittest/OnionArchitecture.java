@@ -12,6 +12,7 @@ public class OnionArchitecture {
     /**
      * 다양한 아키텍처 검증이 가능하다.
      * 참고 : https://www.archunit.org/userguide/html/000_Index.html#_architectures
+     * example source : https://github.com/TNG/ArchUnit-Examples/blob/main/example-plain/src/test/java/com/tngtech/archunit/exampletest/OnionArchitectureTest.java
      */
 
 
